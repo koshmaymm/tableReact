@@ -1,0 +1,21 @@
+.fruits,
+.fruit-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fruit-item {
+  justify-content: center;
+  padding: 4px;
+  border: 1px solid transparent;
+}
+
+.fruit-item .img {
+  width: 20px;
+}
+
+.fruit-item.fruit-item__checked {
+  border: 1px solid gray;
+  border-radius: 50%;
+}
